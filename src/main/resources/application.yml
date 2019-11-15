@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  couchbase:
+    bootstrap-hosts: localhost
+    bucket:
+      name: beer
+      password: rootrootrootroot
+
+logging:
+  level:
+    root: debug
